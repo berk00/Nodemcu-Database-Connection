@@ -9,7 +9,7 @@ const char *ssid = "Kodluyoruz2G";  //ENTER YOUR WIFI SETTINGS
 const char *password = "Coder.2018.";
  
 //Web/Server address to read/write from 
-const char *host = "http://192.168.1.10";   //https://circuits4you.com website or IP address of server
+const char *host = "http://192.168.1.10";   // website or IP address of server
  
 //=======================================================================
 //                    Power on setup
@@ -58,7 +58,7 @@ void loop() {
  
   //GET Data
   getData = "?temperatureC=" + temp;  //Note "?" added at front
-  Link = "http://192.168.1.10/deger/index.php" + getData;
+  Link = "http://192.168.1.10/deger/index.php" + getData;  //web sitesinde gönderilecek adres
   
   http.begin(Link);     //Specify request destination
   
