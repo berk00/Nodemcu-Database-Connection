@@ -1,3 +1,3 @@
-# Arduino Nudemcu Database Connection
+# Arduino Nodemcu Database Connection
 
 Arduino and database
